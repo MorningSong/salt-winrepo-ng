@@ -4,6 +4,7 @@
 {% if grains['cpuarch'] == 'AMD64' %}
 npp_x64:
   {% for version in [
+    '8.9.3',
     '8.5.4',
     '8.5.3',
     '8.5.2',
